@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+⚠️ **重要许可证声明** ⚠️
+
+本项目采用严格的专有许可证。虽然代码是公开的，但保留所有权利：
+
+- ✅ 允许：查看和学习代码
+- ❌ 禁止：使用、复制、修改或分发代码
+- ❌ 禁止：创建衍生作品
+- ❌ 禁止：商业或非商业用途的使用
+
+**任何未经明确书面许可的使用都是被禁止的。**
+
+查看完整的 [LICENSE](./LICENSE) 文件了解详细信息。
