@@ -1,83 +1,120 @@
-# Getting Started with Create React App
+# FindStock
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)
 
-## Available Scripts
+## ⚠️ Important License Notice ⚠️
 
-In the project directory, you can run:
+This project is released under a strict proprietary license. While the code is publicly visible, all rights are reserved:
 
-### `npm start`
+### Permissions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- ✅ View and study the source code
+- ✅ Fork the repository for reference purposes only
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Restrictions
 
-### `npm test`
+- ❌ Use the code in any environment (development, testing, or production)
+- ❌ Copy, modify, or distribute any part of the code
+- ❌ Create derivative works
+- ❌ Use for commercial or non-commercial purposes
+- ❌ Incorporate any part of the code into other projects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Any use without explicit written permission is strictly prohibited.**
 
-### `npm run build`
+For detailed terms, please refer to the [LICENSE](./LICENSE) file.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Overview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+FindStock is an advanced stock analysis platform built with React.js, designed to provide comprehensive tools for stock market analysis and research. The platform integrates real-time data from Yahoo Finance and offers sophisticated charting capabilities through TradingView.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Key Features
 
-### `npm run eject`
+- 🔍 **Real-time Stock Search**
+  - Instant stock symbol lookup
+  - Company information display
+  - Market data integration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 📊 **Advanced Charting**
+  - TradingView chart integration
+  - Multiple timeframe analysis
+  - Custom indicator support
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 📈 **Technical Analysis**
+  - Price action analysis
+  - Technical indicators
+  - Pattern recognition
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- 📋 **Fundamental Analysis**
+  - Financial metrics
+  - Company fundamentals
+  - Market statistics
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- 🤖 **AI Analysis**
+  - Market sentiment analysis
+  - Trend predictions
+  - Risk assessment
 
-## Learn More
+## Technology Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Frontend Framework**
+  - React.js
+  - Ant Design UI Library
+  - TradingView Charting Library
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Data Integration**
+  - Yahoo Finance API
+  - Real-time WebSocket connections
+  - RESTful API architecture
 
-### Code Splitting
+- **Development Tools**
+  - Create React App
+  - Node.js
+  - npm package manager
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Project Structure
 
-### Analyzing the Bundle Size
+```
+findstock/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/          # Main application pages
+│   ├── services/       # API and data services
+│   └── styles/         # CSS and styling files
+├── public/             # Static assets
+└── package.json        # Project dependencies
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Development Setup
 
-### Making a Progressive Web App
+```bash
+# Clone the repository (requires permission)
+git clone https://github.com/Caesarcph/FindStock.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Install dependencies
+npm install
 
-### Advanced Configuration
+# Start development server
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact Information
 
-### Deployment
+For licensing inquiries or permission requests:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- 📧 Create an issue in this repository
+- 🔗 Contact through GitHub
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Due to the proprietary nature of this project, we are not accepting contributions at this time. However, you are welcome to:
 
-⚠️ **重要许可证声明** ⚠️
+- Report bugs through issues
+- Suggest features
+- Provide feedback
 
-本项目采用严格的专有许可证。虽然代码是公开的，但保留所有权利：
+## Copyright
 
-- ✅ 允许：查看和学习代码
-- ❌ 禁止：使用、复制、修改或分发代码
-- ❌ 禁止：创建衍生作品
-- ❌ 禁止：商业或非商业用途的使用
+Copyright (c) 2025 Caesarcph. All rights reserved.
 
-**任何未经明确书面许可的使用都是被禁止的。**
-
-查看完整的 [LICENSE](./LICENSE) 文件了解详细信息。
+---
+*Note: This README is part of the proprietary codebase and is subject to the same license restrictions as the rest of the project.*
