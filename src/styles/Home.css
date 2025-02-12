@@ -1,0 +1,38 @@
+.feature-card {
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.ant-card-cover {
+  border-radius: 8px 8px 0 0;
+}
+
+.ant-input-search-button {
+  height: 40px !important;
+  border-radius: 0 8px 8px 0 !important;
+}
+
+.ant-input-affix-wrapper {
+  border-radius: 8px 0 0 8px !important;
+}
+
+.ant-btn {
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.ant-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ant-tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 4px;
+}
